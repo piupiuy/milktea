@@ -1,0 +1,91 @@
+{
+	"pages": [
+		{	
+			"path": "pages/tabbar/index/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/tabbar/book/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/tabbar/order/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/tabbar/my/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/Count/Count",
+			"style": {
+				
+			}
+		}
+	    ,{
+            "path" : "pages/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#00ccc6",
+		"backgroundColor": "#ffffff",
+		"navigationStyle":"custom",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [
+			
+			{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页",
+				"iconPath":"./static/home.png",
+				"selectedIconPath": "static/home2.png"
+			},
+			{
+				"pagePath": "pages/tabbar/book/index",
+				"text": "点单",
+				"iconPath": "static/book.png",
+				"selectedIconPath": "static/book2.png"
+			},
+			{
+				"pagePath": "pages/tabbar/order/index",
+				"text": "订单",
+				"iconPath": "static/order.png",
+				"selectedIconPath": "static/order2.png"
+			},
+			{
+				"pagePath": "pages/tabbar/my/index",
+				"text": "我的",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my2.png"
+			}
+		]
+	}
+}
